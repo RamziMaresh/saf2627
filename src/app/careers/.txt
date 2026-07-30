@@ -1,0 +1,282 @@
+"use client";
+import React, { useRef, useState, useEffect } from 'react';
+import emailjs from '@emailjs/browser';
+import PageBanner from "../../components/PageBanner";
+import SafraLayout from "../../layouts/SafraLayout";
+import Swal from 'sweetalert2';
+
+import Link from "next/link";
+
+const page = () => {
+
+    const [status, setStatus] = useState('');
+    const form = useRef(null);
+
+    const sendEmail = (e) => {
+        event.preventDefault();
+        if (
+            process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID &&
+            process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID_CAREER &&
+            process.env.NEXT_PUBLIC_EMAILJS_USER_ID &&
+            form.current
+        ) {
+            emailjs
+                .sendForm(
+                    process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+                    process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID_CAREER,
+                    form.current,
+                    process.env.NEXT_PUBLIC_EMAILJS_USER_ID
+                )
+                .then(
+                    (result) => {
+                        setStatus('SUCCESS')
+                        Swal.fire({
+                            title: "Successfully Sent",
+                            text: "Your message sent successfully to sfra support team, You got an alert in your email.",
+                            icon: "success"
+                        })
+                    },
+                    (error) => {
+                        setStatus('FAILED... ', error.text)
+                        Swal.fire({
+                            title: "Failed !",
+                            text: "Try again, or contact safra support team to assest you.",
+                            icon: "failed"
+                        })
+
+
+                    },
+                );
+            e.target.reset()
+        }
+    };
+
+
+    return (
+        <SafraLayout>
+            <PageBanner pageName={"Careers"} />
+            <section className="services-two-area-l pt-60 rpt-60 pb-0 rpb-   rel z-2">
+                <div className="container">
+
+                    <div className="row justify-content-center">
+                        <div className="col-xl-9 col-lg-11">
+                            <div className="tag-share pt-0 pb-10">
+                                <h5>Eager to join us!</h5>
+                            </div>
+                            <div className="pb-40">
+                                <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row justify-content-center">
+                        <div className="col-xl-9 col-lg-11">
+                            <p className="">
+                                We Give Our People The Opportunity And Support To Achieve More Than They Ever Thought Possible.<br />
+                            </p>
+                            <p className="pt-20">
+                                <b>Upload Your CV!</b>
+                            </p>
+                            <div className="col-xl-5 col-lg-6 col-md-8 col-sm-10">
+                                <div className="sign-in-up-wrapper">
+
+                                {status && renderAlert()}
+
+                                    <form
+                                        ref={form}
+                                        onSubmit={sendEmail}
+                                        className="contact-form"
+                                        name="contactForm"
+                                    >
+                                        <div className="form-group">
+                                            <label htmlFor="Your Name">
+                                                <i className="far fa-user" />
+                                            </label>
+                                            <input
+                                                type="text"
+                                                autoComplete='off'
+                                                id="user_name_career"
+                                                name="user_name_career"
+                                                className="form-control"
+                                                placeholder="Name"
+                                                required
+                                                data-error="Please enter your Name"
+                                            />
+                                        </div>
+                                        <div className="form-group">
+                                            <label htmlFor="email">
+                                                <i className="far fa-envelope" />
+                                            </label>
+                                            <input
+                                                type="email"
+                                                autoComplete='off'
+                                                id="user_email_career"
+                                                name="user_email_career"
+                                                className="form-control"
+                                                placeholder="Your Email"
+                                                required
+                                                data-error="Please enter your Email"
+                                            />
+                                        </div>
+                                        <div className="form-group">
+                                            <label htmlFor="Subject">
+                                                <i className="far fa-lock" />
+                                            </label>
+                                            <input
+                                                type="text"
+                                                id="user_subject_career"
+                                                name="user_subject_career"
+                                                autoComplete='off'
+                                                className="form-control"
+                                                placeholder="I like to discussed"
+                                                required
+                                                data-error="Please enter your Subject"
+
+                                            />
+                                        </div>
+                                        <div className="form-group">
+                                            <label htmlFor="Subject">
+                                                <i className="far fa-lock" />
+                                            </label>
+                                            <input
+                                                type="file"
+                                                id="user_file_career"
+                                                name="user_file_career"
+                                                autoComplete='off'
+                                                className="form-control"
+                                                placeholder="I like to discussed"
+                                                required
+                                                data-error="Please enter your Subject"
+
+                                            />
+                                        </div>
+                                        
+
+                                        <div className="form-group">
+                                            <button className="theme-btn-careers w-100" type="submit" value="Send" >
+                                                Send
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section className="hero-area-six rel z-1">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-xl-9 col-lg-11">
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* News media section one start  */}
+            <section className="blog-details-area py-0 rpy-100">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-xl-9 col-lg-11">
+
+                            <div className="blog-details-content pt-10  pb-40">
+                                <div className="blog-details-content">
+                                    <h6 className="pt-20 ">A Quick Image Bite Of Who And What We Are</h6>
+                                    <p>
+                                        The center of marketing gravity for innovation can be anywhere, and what matters is that our
+                                        company SAFRA Ltd. is having the ability to bring central focus to bear when it is needed to
+                                        drive economies of scale, efficiencies, and experience.
+                                    </p>
+                                    <h6 className="pt-20">Knowledge Dissemination</h6>
+                                    <p>
+                                        Capturing, retaining and disseminating knowledge is crucial. A strategic dimension for us is to
+                                        make it our priority at corporate level to define and rationalize our portfolio and then invest in
+                                        what we determine to be our “core competencies”; our key areas of competitive advantage.
+                                        And once we do it, we put all our muscles behind them. Then we think big.< br />
+                                        But, not surprisingly, each aspiring company does it in its own individual way. Some have
+                                        simply taken their products, their practices and their people and imposed them on the rest of
+                                        the world with the minimum of adaptation. Some others moved very fast into newly opened
+                                        countries like China, Central and Eastern Europe and investing in high growth economies.
+                                        A team and a team spirit with the right strategic direction will enable us to do this quickly and
+                                        well.
+                                    </p>
+
+                                    <h6 className="pt-20 ">Safra Managers</h6>
+                                    <p>
+                                        We now have a cadre of some good managers. Every one of the team expects to work in
+                                        teams where you can enter a new market with all possible speed.
+                                    </p>
+
+                                    <h6 className="pt-20 ">How Safra To Compete</h6>
+                                    <p>
+                                        Once we get into a new market, we shall compete with our existing products and maintain a
+                                        steady stream of new, state off the art products. Innovation will be at the top of everyone’s
+                                        priority list. Business excellence shall be reflected in all what we do. To succeed, some
+                                        percentage of our turnover will be required to be spent on R&D. The technology will be clearly
+                                        focused, and never for its own sake to show how clever we are.
+                                    </p>
+
+                                    <h6 className="pt-20">Anyone Can Innovate</h6>
+                                    <p>
+                                        Any one of these new product ideas can start anywhere in the company, and they frequently
+                                        do. We are ready and able to see the glimpse of a possibility – and then act on it. Fine polish
+                                        it, and then launch it.
+                                    </p>
+
+
+                                    <h6 className="pt-20">Project Initiation</h6>
+                                    <ul className="icon-list mt-20 mb-35">
+                                        <li>
+                                            <i className="fal fa-check" /> Audit to find where we truly are. If we do not, life is full of surprises!.
+                                        </li>
+                                        <li>
+                                            <i className="fal fa-check" /> Set targets, measure and benchmark performance.
+                                        </li>
+                                        <li>
+                                            <i className="fal fa-check" />Excel rather than control.
+                                        </li>
+                                        <li>
+                                            <i className="fal fa-check" /> Attack costs – and then attack them again. Lowest imaginable cost is vital.
+                                        </li>
+                                        <li>
+                                            <i className="fal fa-check" />Innovate, innovate and then innovate! Getting in front is tough enough.
+                                        </li>
+                                        <li>
+                                            <i className="fal fa-check" />Think big and be broad minded.
+                                        </li>
+                                        <li>
+                                            <i className="fal fa-check" />Never and never take your eye off the Customer. The customer has the last word.
+                                        </li>
+                                    </ul>
+
+                                    <h6>
+                                        And last – though it is not on the list….. ENJOY and Continue to ENJOY Working for
+                                        SAFRA!
+                                    </h6>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+        </SafraLayout>
+    );
+};
+
+const renderAlert = () => (
+    <div
+      className='alert-contact-form'
+    >
+      <p className='p-10 '>Successfully Sent!</p>
+    </div>
+  )
+
+export default page;

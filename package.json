@@ -1,0 +1,40 @@
+{
+  "name": "safra-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@next/env": "^14.2.13",
+    "aos": "^2.3.4",
+    "dotenv": "^16.4.5",
+    "isotope-layout": "^3.0.6",
+    "jss-rtl": "^0.3.0",
+    "mdb-react-ui-kit": "^8.0.0",
+    "next": "14.1.0",
+    "pdfjs-dist": "^3.4.120",
+    "react": "^18",
+    "react-bootstrap": "^1.6.1",
+    "react-collapsible": "^2.10.0",
+    "react-countup": "^6.5.0",
+    "react-dom": "^18",
+    "react-nice-select": "^1.0.6",
+    "react-pdf": "^9.2.1",
+    "react-player": "^2.14.1",
+    "react-scroll-to-top": "^3.1.0",
+    "react-select": "^5.8.0",
+    "react-simple-image-slider": "^2.4.1",
+    "react-slick": "^0.30.2",
+    "react-swipeable": "^7.0.1",
+    "react-visibility-sensor": "^5.1.1",
+    "reactjs-popup": "^2.0.6",
+    "sweetalert2": "^11.14.0",
+    "swiper": "^11.1.12",
+    "validator": "^13.12.0"
+  }
+}
