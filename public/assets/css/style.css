@@ -6065,10 +6065,12 @@ a.theme-btn.style-two {
 }
 
 .iconic-box-contact.style-four {
-  background: #0d6780;
+  background: #0E7490;
+  background: linear-gradient(90deg, rgba(14, 116, 144, 1) 0%, rgba(63, 143, 95, 1) 100%, rgba(130, 130, 43, 1) 100%);
   border-radius: 15px;
-  padding: 20px 10px 0px;
+  padding: 20px 0px 10px 0px;
   text-align: center;
+  margin: 10px;
 }
 
 .iconic-box-contact.style-four h6 {
@@ -6357,6 +6359,7 @@ a.theme-btn.style-two {
 .footer-widget {
   margin-bottom: 10px;
 }
+
 .footer-title {
   color: white;
   font-size: 16px;
@@ -6364,21 +6367,26 @@ a.theme-btn.style-two {
   margin-bottom: 30px;
   font-weight: normal;
 }
+
 .widget-links ul li {
   font-size: 14px;
   line-height: 1.5;
 }
+
 .widget-links ul li a {
   color: white;
 }
+
 .widget-links ul li a:hover {
   color: white;
 }
+
 .widget-links ul li:not(:last-child) {
   margin-bottom: 6px;
   color: white;
 
 }
+
 .widget-contact ul li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6387,6 +6395,7 @@ a.theme-btn.style-two {
   letter-spacing: 1.0px;
   font-size: 14px;
 }
+
 .widget-contact ul li i {
   font-size: 12px;
   -webkit-box-flex: 0;
@@ -6399,13 +6408,16 @@ a.theme-btn.style-two {
   letter-spacing: 1px;
 
 }
+
 .widget-contact ul li a {
   color: white;
   font-size: 14px;
 }
+
 .widget-contact ul li a:hover {
   color: gainsboro;
 }
+
 .widget-contact ul li:not(:last-child) {
   margin-bottom: 5px;
 }
@@ -6481,9 +6493,11 @@ a.theme-btn.style-two {
   position: relative;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .footer-bottom .copyright-text a {
   color: white;
 }
+
 .footer-bottom .footer-bottom-menu ul {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -6525,6 +6539,7 @@ a.theme-btn.style-two {
   left: calc(50% - 27px);
   top: -27px;
 }
+
 .footer-bottom .terms-policy {
   color: white;
   font-size: 12px;
@@ -6561,6 +6576,7 @@ a.theme-btn.style-two {
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
+
 .social-style-one a {
   color: black;
   margin: 10px 5px 0;
@@ -6571,10 +6587,12 @@ a.theme-btn.style-two {
   border-radius: 50%;
   text-align: center;
 }
+
 .social-style-one a:hover {
   color: white;
   background: #CFC040;
 }
+
 /*******************************************************/
 /******************* ##End  Footer Area  *******************/
 /*******************************************************/

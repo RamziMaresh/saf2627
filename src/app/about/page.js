@@ -139,7 +139,7 @@ const About = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <div className="section-title pb-20">
+                <div className="section-title">
                   <h4 className="pb-0">
                     CEO Message
                   </h4>
@@ -149,7 +149,7 @@ const About = () => {
                 </div>
                 {/* CEO Photo & Credentials */}
                 <div className="flex-shrink-0 text-center">
-                  <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-2 border-indigo-500">
+                  <div className="mb-4">
                     <img
                       src="assets/images/md/ceo.svg"
                       alt="CEO"
@@ -157,21 +157,21 @@ const About = () => {
                       className="object-cover"
                     />
                   </div>
-                  <h3 className="text-lg font-bold text-gray-900 dark:text-white">Khalid I. Zagzoog</h3>
+                  <h3>Khalid I. Zagzoog</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">CEO</p>
                 </div>
                 {/* Message Content */}
-                <div className="flex-1 space-y-4 text-gray-700 dark:text-gray-300">
-                  <p className="italic">
-                    &ldquo;People and culture are the biggest assets in Safra, which we continuously cherish and develop to accomplish our objective of highest levels of customer satisfaction.
+                <div className="flex-1 space-y-4 text">
+                  <p className="">
+                    People and culture are the biggest assets in Safra, which we continuously cherish and develop to accomplish our objective of highest levels of customer satisfaction.
                     Through the history of times, we have experienced that the success of us and that of you as our partner, lies in the applied transparency, continuous product
                     development and efficient process implementation, on which our business approach rests.
-                    We are committed to meet variety of customer requirements in the area of industrial chemicals & solvents, consumer products and related services.&rdquo;
+                    We are committed to meet variety of customer requirements in the area of industrial chemicals & solvents, consumer products and related services
                   </p>
                   <p className="text-sm leading-relaxed">
                     To meet the growing needs of industrial & decorative paints, home care products, agricultural pesticides and other end-user products, we are dedicated to expand
                     our production capabilities, which will further support these industrial sectors with continuous and reliable supply of their raw material requirements. Without any compromise on the environmental health,
-                    we apply highest care to the quality of products that we produce, together with meeting our business commitments with accuracy and on-time.
+                    we apply highest care to the quality of products that we produce, together with meeting our business commitments with accuracy and on-time
                   </p>
                   <p>
                     We take pride in acknowledging our contribution to the Saudi economy and society by producing & supplying industrial raw material for growth of local industry

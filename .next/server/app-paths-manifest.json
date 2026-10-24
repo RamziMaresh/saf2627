@@ -1,3 +1,8 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/blended-products/page": "app/blended-products/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/about/page": "app/about/page.js",
+  "/safra-supertc/page": "app/safra-supertc/page.js",
+  "/chemplex-products/page": "app/chemplex-products/page.js"
 }
