@@ -108,7 +108,7 @@ const Footer = () => {
 
         <div className="footer-bottom mt-30 py-15">
           <div className="row justify-content-center text-center">
-            <span>
+            <span className="terms-policy">
               © {date.getFullYear()} All rights reserved | Safra Company Limited
             </span>
             <span className="terms-policy">

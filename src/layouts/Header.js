@@ -131,7 +131,6 @@ const Nav = ({
                   <li>
                     <Link href="Industrial-Cleaning">Industrial Cleaning and Maintenance</Link>
                   </li>
-
                   <li>
                     <Link href="household-products">Household Products</Link>
                   </li>
@@ -149,9 +148,21 @@ const Nav = ({
                   &nbsp;<span className="far fa-angle-down" />
                 </div>
               </li>
+
+
               <li className="dropdown">
                 <Link href="scm-marketing">SCM & Marketing</Link>
+                <ul>
+                  <li>
+                    <Link href="certificates">Certificates</Link>
+                  </li>
+                </ul>
+                <div className="dropdown-btn">
+                  &nbsp;<span className="far fa-angle-down" />
+                </div>
               </li>
+
+
               <li className="dropdown">
                 <Link href="careers">Careers</Link>
               </li>
@@ -299,6 +310,14 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
 
           <li className="dropdown">
             <Link href="scm-marketing">SCM & Marketing</Link>
+                            <ul>
+                  <li>
+                    <Link href="certificates">Certificates</Link>
+                  </li>
+                </ul>
+                <div className="dropdown-btn">
+                  &nbsp;<span className="far fa-angle-down" />
+                </div>
           </li>
           <li className="dropdown">
             <Link href="careers">Careers</Link>

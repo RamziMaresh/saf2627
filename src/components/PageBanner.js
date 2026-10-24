@@ -8,7 +8,7 @@ const PageBanner = ({ pageTitle, pageName, titleTag = "h2" }) => {
   return (
     <section
       className="page-banner-area overlay py-100 rpy-120 rel z-1 bgs-cover text-center"
-      style={{ backgroundImage: "url(assets/images/backgrounds/cta.jpg)" }}
+      style={{ backgroundImage: "url(assets/images/backgrounds/main_banner.svg)" }}
     >
       <div className="container">
         <div className="banner-inner pt-70 rpt-60 text-white">

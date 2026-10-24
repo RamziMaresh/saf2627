@@ -1,0 +1,31 @@
+          <div className="container container-1070">
+            <div className="row pb-10 rpb-20 gap-100 align-items-center">
+
+              <div className="ceo-text">
+                <div
+                  className="ai-content mb-40 rmb-0"
+                  data-aos="fade-right"
+                  data-aos-duration={1500}
+                  data-aos-offset={50}
+                >
+                  <p>
+                    The production capacity of SAFRA refinery is continuously expanding to meet
+                    increasing demand for products while keeping pace with the latest technological
+                    developments and simultaneously meeting stringent international standards for
+                    manufacturing solvents.<br />
+
+                    The plant is equipped with necessary technological flexibility and pool of technical
+                    experts to produce innovative tailor made products conforming to the customer
+                    specifications. It is very well equipped with high capacity solvent filling facility in drums,
+                    tankers, containers and ISO tank. It also has a pipeline linked to the sea-terminal
+                    facilitating excellent freight economics to our esteemed customers owing to the efficient
+                    port facilities for shipment of products in large vessels.
+                    Our environmentally friendly solvents comply with international quality and safety
+                    standards. Our fully integrated production, sales & distribution processes ensure on time deliveries to the regional and international partners
+                    for further down-streaming quality products.
+                    SAFRA has an ambitious drive and aspiration to contribute to Saudi Vision 2030.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
