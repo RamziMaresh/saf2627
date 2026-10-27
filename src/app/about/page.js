@@ -178,8 +178,8 @@ const About = () => {
                     We at Safra, believe in empowering and rewarding our intellectual capital and providing a motivating work environment within the guidelines of Islamic ethics and culture.
                   </p>
                 </div>
-
               </div>
+              <hr />
             </div>
           </div>
         </section>
@@ -187,56 +187,78 @@ const About = () => {
 
 
 
-
-        {/* Contact Area Start */}
-        <section
-          className="cta-area bgs-cover py-130 rpy-100"
-          style={{ backgroundImage: "url(assets/images/backgrounds/contact_banner.svg)" }}
-        >
+          {/* Values Area Start */}
+        <section className="feature-box-area pt-40 rpt-60 pb-40 rpb-20 rel z-1">
           <div className="container">
-            <div className="row align-items-center justify-content-between">
-              <div className="col-xl-6 col-lg-8">
+            <div className="row justify-content-center">
+              <div className="col-xl-7 col-lg-9 col-md-11">
                 <div
-                  className="cta-content text-white rmb-35"
-                  data-aos="fade-left"
-                  data-aos-duration={1000}
-                  data-aos-offset={50}
+                  className="section-title text-center mb-40"
                 >
-                  <div className="section-title mb-40">
-                    <span className="subtitle d-block mb-10">
-                      Safra Team
-                    </span>
-                    <h3>We Are Ready To Serve You <br />and Answer Your Inquiries!</h3>
-                  </div>
-                  <Link legacyBehavior href="/contact">
-                    <a className="theme-btn">
-                      Contact Us <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div
-                  className="cta-btn text-lg-center text-start ps-lg-0 ps-2"
-                  data-aos="zoom-in-right"
-                  data-aos-duration={1000}
-                >
-                  <a
-                    href="mailto:info@safraco.com"
-                    className="mfp-iframe video-play"
-                  >
-                    <i className="fas fa-envelope" />
-                  </a>
+                  <h4>
+                    Corporate <span>Values</span>
+                  </h4>
                 </div>
               </div>
             </div>
+            <div className="row justify-content-center">
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Compliance to Business Principles</h5>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Customers Orientation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Transparency</h5>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Integrity & Honesty</h5>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Corporate Social Responsibility </h5>
+                  </div>
+                </div>
+              </div>
+              <hr />
+            </div>
           </div>
         </section>
-        {/* contact Area End */}
+        {/* Values Area End */}
+
 
 
         {/* Corporate Area Start */}
-        <section className="tab-area-two pt-40 rpt-40"
+        <section className="tab-area-two pt-20 rpt-40"
           style={{ backgroundImage: "url(assets/images/backgrounds/tolltip.svg)" }}>
           <div className="container">
             <Tab.Container defaultActiveKey={"tabTwo1"}>
@@ -340,7 +362,7 @@ const About = () => {
 
         {/* Leadership Area Start */}
         <section
-          className="tooltip-area-two bgs-cover rel pt-40 rpt-10">
+          className="tooltip-area-two bgs-cover rel pt-40 rpt-40">
           <div className="container">
             <div className="row justify-content-center">
               <div
@@ -366,75 +388,6 @@ const About = () => {
         </section>
         {/* leadership Area End */}
 
-
-        {/* Values Area Start */}
-        <section className="feature-box-area pt-40 rpt-60 pb-40 rpb-20 rel z-1">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-xl-7 col-lg-9 col-md-11">
-                <div
-                  className="section-title text-center mb-40"
-                >
-                  <h4>
-                    Corporate <span>Values</span>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="row justify-content-center">
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Compliance to Business Principles</h5>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Customers Orientation</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Transparency</h5>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Integrity & Honesty</h5>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Corporate Social Responsibility </h5>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </section>
-        {/* Values Area End */}
 
 
         {/* Products Area Start */}
