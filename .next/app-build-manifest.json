@@ -16,70 +16,40 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/about/page": [
+    "/certificates/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about/page.js"
+      "static/chunks/app/certificates/page.js"
     ],
     "/chemplex-products/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/chemplex-products/page.js"
     ],
-    "/safra-pro/page": [
+    "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/safra-pro/page.js"
+      "static/chunks/app/contact/page.js"
     ],
-    "/safra-prime/page": [
+    "/careers/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/safra-prime/page.js"
+      "static/chunks/app/careers/page.js"
     ],
-    "/safra-cryl/page": [
+    "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/safra-cryl/page.js"
+      "static/chunks/app/about/page.js"
     ],
-    "/safra-autoCryl/page": [
+    "/aromatic-products/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/safra-autoCryl/page.js"
+      "static/chunks/app/aromatic-products/page.js"
     ],
-    "/safra-supertc/page": [
+    "/aliphatic-products/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/safra-supertc/page.js"
-    ],
-    "/safra-pine/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/safra-pine/page.js"
-    ],
-    "/safra-shine/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/safra-shine/page.js"
-    ],
-    "/Bond-Cpvc-Cleaner/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Bond-Cpvc-Cleaner/page.js"
-    ],
-    "/Bond-Cpvc-Cement/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Bond-Cpvc-Cement/page.js"
-    ],
-    "/Bond-Pvc-Cement-Transparent/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Bond-Pvc-Cement-Transparent/page.js"
-    ],
-    "/Bond-PVC-CementGray/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Bond-PVC-CementGray/page.js"
+      "static/chunks/app/aliphatic-products/page.js"
     ]
   }
 }

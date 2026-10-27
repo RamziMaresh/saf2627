@@ -130,8 +130,7 @@ const About = () => {
 
 
         {/* CEO M Area Start */}
-        <section
-          className="tooltip-area-two bgs-cover">
+        <section className="tooltip-area-two bgs-cover">
           <div className="container">
             <div className="row justify-content-center">
               <div
@@ -161,8 +160,8 @@ const About = () => {
                   <p className="text-sm text-gray-500 dark:text-gray-400">CEO</p>
                 </div>
                 {/* Message Content */}
-                <div className="flex-1 space-y-4 text">
-                  <p className="">
+                <div className="ceo-message">
+                  <p>
                     People and culture are the biggest assets in Safra, which we continuously cherish and develop to accomplish our objective of highest levels of customer satisfaction.
                     Through the history of times, we have experienced that the success of us and that of you as our partner, lies in the applied transparency, continuous product
                     development and efficient process implementation, on which our business approach rests.
@@ -188,7 +187,7 @@ const About = () => {
 
 
 
-        
+
         {/* Contact Area Start */}
         <section
           className="cta-area bgs-cover py-130 rpy-100"
@@ -236,10 +235,8 @@ const About = () => {
         {/* contact Area End */}
 
 
-
-
         {/* Corporate Area Start */}
-        <section className="tab-area-two pt-40 rpt-10"
+        <section className="tab-area-two pt-40 rpt-40"
           style={{ backgroundImage: "url(assets/images/backgrounds/tolltip.svg)" }}>
           <div className="container">
             <Tab.Container defaultActiveKey={"tabTwo1"}>

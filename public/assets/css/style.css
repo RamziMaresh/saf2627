@@ -4303,8 +4303,8 @@ a.theme-btn.style-two {
   color: black;
   text-align: justify;
 }
-
-.tag-share h4 span {
+/*
+.tag-share h6 span {
   color: #e4b04f;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -4316,7 +4316,7 @@ a.theme-btn.style-two {
 .tag-share2 {
   text-align: justify;
 }
-
+*/
 @media only screen and (max-width: 767px) {
   .section-title h2 {
     font-size: 40px;
@@ -5753,8 +5753,9 @@ a.theme-btn.style-two {
   max-width: 950px;
   text-align: justify;
 }
-
-
+.ceo-message p{
+  color: black;
+}
 .management-images {
   position: relative;
 }
@@ -6543,7 +6544,7 @@ background: linear-gradient(90deg, rgba(14, 116, 144, 1) 0%, rgba(63, 143, 95, 1
 .footer-bottom .terms-policy {
   color: white;
   font-size: 12px;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.5px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -6591,6 +6592,18 @@ background: linear-gradient(90deg, rgba(14, 116, 144, 1) 0%, rgba(63, 143, 95, 1
 .social-style-one a:hover {
   color: white;
   background: #CFC040;
+}
+
+.quick-links h6{
+  color: white;
+}
+.quick-links a {
+  color: gainsboro;
+  font-size: 14px;
+}
+.quick-links a:hover {
+  color: lightgray;
+  font-size: 14px;
 }
 
 /*******************************************************/
@@ -6737,7 +6750,7 @@ video {
   transition: transform 0.3s ease-in-out;
   transform: scale(1.1);
 }
-
+/*
 .tag-coulds-pro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6770,7 +6783,7 @@ video {
   background: var(--primary-color);
   border-color: var(--primary-color);
 }
-
+*/
 .tooltip-area {
   background-color: rgb(248 250 252);
 }
