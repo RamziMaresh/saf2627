@@ -6352,8 +6352,8 @@ a.theme-btn.style-two {
 /*******************************************************/
 /* Footer One */
 .main-footer.footer-one {
-  background: #0d6780;
-  background: linear-gradient(90deg, rgba(13, 103, 128, 1) 0%, rgba(63, 143, 95, 1) 100%);
+background: #0E7490;
+background: linear-gradient(90deg, rgba(14, 116, 144, 1) 0%, rgba(63, 143, 95, 1) 100%, rgba(130, 130, 43, 1) 100%);
 }
 
 .footer-widget {

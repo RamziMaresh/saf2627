@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 import { Nav, Tab } from "react-bootstrap";
@@ -181,11 +181,60 @@ const About = () => {
                 </div>
 
               </div>
-              <hr />
             </div>
           </div>
         </section>
         {/* CEO M Area End */}
+
+
+
+        
+        {/* Contact Area Start */}
+        <section
+          className="cta-area bgs-cover py-130 rpy-100"
+          style={{ backgroundImage: "url(assets/images/backgrounds/contact_banner.svg)" }}
+        >
+          <div className="container">
+            <div className="row align-items-center justify-content-between">
+              <div className="col-xl-6 col-lg-8">
+                <div
+                  className="cta-content text-white rmb-35"
+                  data-aos="fade-left"
+                  data-aos-duration={1000}
+                  data-aos-offset={50}
+                >
+                  <div className="section-title mb-40">
+                    <span className="subtitle d-block mb-10">
+                      Safra Team
+                    </span>
+                    <h3>We Are Ready To Serve You <br />and Answer Your Inquiries!</h3>
+                  </div>
+                  <Link legacyBehavior href="/contact">
+                    <a className="theme-btn">
+                      Contact Us <i className="far fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div
+                  className="cta-btn text-lg-center text-start ps-lg-0 ps-2"
+                  data-aos="zoom-in-right"
+                  data-aos-duration={1000}
+                >
+                  <a
+                    href="mailto:info@safraco.com"
+                    className="mfp-iframe video-play"
+                  >
+                    <i className="fas fa-envelope" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* contact Area End */}
+
 
 
 
@@ -195,24 +244,21 @@ const About = () => {
           <div className="container">
             <Tab.Container defaultActiveKey={"tabTwo1"}>
               <div
-                className="row justify-content-center"
+                className="flex-shrink-0 text-center"
                 data-aos="fade-up"
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <div className="col-lg-10">
-                  <Nav
-                    as={"ul"}
-                    className="nav advanced-tab style-two mb-55"
-                    role="tablist"
-                  >
-                    <Nav.Item as={"li"}>
-                      <Nav.Link as={"button"} eventKey="tabTwo1">
-                        Corporate Purpose
-                      </Nav.Link>
-                    </Nav.Item>
-                  </Nav>
+
+                <div className="section-title">
+                  <h4 className="pb-0">
+                    Corporate Purpose
+                  </h4>
+                  <div className="">
+                    <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+                  </div>
                 </div>
+
               </div>
               <Tab.Content className="tab-content">
                 <Tab.Pane className="tab-pane fade" eventKey="tabTwo1">
@@ -297,7 +343,7 @@ const About = () => {
 
         {/* Leadership Area Start */}
         <section
-          className="tooltip-area-two bgs-cover rel pt-10 rpt-10">
+          className="tooltip-area-two bgs-cover rel pt-40 rpt-10">
           <div className="container">
             <div className="row justify-content-center">
               <div
