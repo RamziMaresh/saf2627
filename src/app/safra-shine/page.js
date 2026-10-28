@@ -111,8 +111,8 @@ const page = () => {
                                         <h6>SAFETY DATA SHEET & TECHNICAL DATA SHEET</h6>
                                     </li> 
                                     <span><i className="fa fa-file-pdf pdf-icon"></i>
-                                        <Link href="/assets/images/pdfs/Spp/Msds/Safra Pine.pdf" target="_blank"> MSDS </Link> | <i className="fa fa-file-pdf pdf-icon"></i>
-                                        <Link href="/assets/images/pdfs/Spp/tds/SAFRA PINE TDS  .pdf" target="_blank"> TDS </Link>
+                                        <Link href="/assets/images/pdfs/Spp/Msds/Safra Shine.pdf" target="_blank"> MSDS </Link> | <i className="fa fa-file-pdf pdf-icon"></i>
+                                        <Link href="/assets/images/pdfs/Spp/tds/SAFRA SHINE TDs.pdf" target="_blank"> TDS </Link>
                                     </span>
                                 </ul>
                             </div>
