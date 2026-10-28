@@ -117,8 +117,6 @@ const Index = () => {
         </section>
         {/* contact Area End */}
 
-
-
         {/* Products Area Start */}
         <section
           className="tooltip-area-two bgs-cover rel pt-100 rpt-100"

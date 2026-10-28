@@ -187,78 +187,105 @@ const About = () => {
 
 
 
-          {/* Values Area Start */}
-        <section className="feature-box-area pt-40 rpt-60 pb-40 rpb-20 rel z-1">
+        {/* Leadership Area Start */}
+        <section className="project-area pt-40 rpt-40 pb-40 rpb-40">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-xl-7 col-lg-9 col-md-11">
+              <div className="col-xl-6 col-lg-8 col-md-10">
                 <div
-                  className="section-title text-center mb-40"
+                  className="section-title text-center mb-60"
+                  data-aos="fade-up"
+                  data-aos-duration={1500}
+                  data-aos-offset={50}
                 >
-                  <h4>
-                    Corporate <span>Values</span>
-                  </h4>
+                  <div className="section-title">
+                    <h4 className="pb-0">  Leadership </h4>
+                    <div className="">
+                      <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+                    </div>
+                    <p>Our board of directors drive our company, guide our strategy and lead our people</p>
+
+                  </div>
                 </div>
               </div>
             </div>
             <div className="row justify-content-center">
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Compliance to Business Principles</h5>
+              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                <div
+                  className="fancy-box style-two"
+                  data-aos="fade-up"
+                  data-aos-duration={1000}
+                  data-aos-offset={50}
+                >
+                  <div className="image">
+                    <img
+                      src="assets/images/about/leader01.svg"
+                      alt="Fancy Box"
+                    />
                   </div>
                 </div>
               </div>
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Customers Orientation</h5>
+              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                <div
+                  className="fancy-box style-two"
+                  data-aos="fade-up"
+                  data-aos-delay={200}
+                  data-aos-duration={1000}
+                  data-aos-offset={50}
+                >
+                  <div className="image">
+                    <img
+                      src="assets/images/about/leader02.svg"
+                      alt="Fancy Box"
+                    />
+                  </div>
+
+                </div>
+              </div>
+              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                <div
+                  className="fancy-box style-two"
+                  data-aos="fade-up"
+                  data-aos-delay={400}
+                  data-aos-duration={1000}
+                  data-aos-offset={50}
+                >
+                  <div className="image">
+                    <img
+                      src="assets/images/about/leader03.svg"
+                      alt="Fancy Box"
+                    />
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="row">
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Transparency</h5>
+              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                <div
+                  className="fancy-box style-two"
+                  data-aos="fade-up"
+                  data-aos-delay={600}
+                  data-aos-duration={1000}
+                  data-aos-offset={50}
+                >
+                  <div className="image">
+                    <img
+                      src="assets/images/about/leader04.svg"
+                      alt="Fancy Box"
+                    />
                   </div>
                 </div>
               </div>
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Integrity & Honesty</h5>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Corporate Social Responsibility </h5>
-                  </div>
-                </div>
-              </div>
-              <hr />
             </div>
           </div>
         </section>
-        {/* Values Area End */}
+        {/* Leadership Area End */}
+
+
+
 
 
 
         {/* Corporate Area Start */}
-        <section className="tab-area-two pt-20 rpt-40"
+        <section className="tab-area-two pt-0 rpt-40"
           style={{ backgroundImage: "url(assets/images/backgrounds/tolltip.svg)" }}>
           <div className="container">
             <Tab.Container defaultActiveKey={"tabTwo1"}>
@@ -360,7 +387,7 @@ const About = () => {
         </section>
         {/* Corporate Area End */}
 
-        {/* Leadership Area Start */}
+        {/* 
         <section
           className="tooltip-area-two bgs-cover rel pt-40 rpt-40">
           <div className="container">
@@ -386,7 +413,77 @@ const About = () => {
             </div>
           </div>
         </section>
-        {/* leadership Area End */}
+         */}
+
+
+
+        {/* Values Area Start */}
+        <section className="feature-box-area pt-40 rpt-60 pb-0 rpb-20 rel z-1">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-xl-7 col-lg-9 col-md-11">
+                <div
+                  className="section-title text-center mb-40"
+                >
+                  <h4>
+                    Corporate <span>Values</span>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div className="row justify-content-center">
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Compliance to Business Principles</h5>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Customers Orientation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Transparency</h5>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Integrity & Honesty</h5>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Corporate Social Responsibility </h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        {/* Values Area End */}
 
 
 
