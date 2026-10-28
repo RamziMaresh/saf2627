@@ -387,35 +387,6 @@ const About = () => {
         </section>
         {/* Corporate Area End */}
 
-        {/* 
-        <section
-          className="tooltip-area-two bgs-cover rel pt-40 rpt-40">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div
-                className="col-xl-9 col-lg-11 rmb-10 text-center"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="section-title pb-20">
-                  <h4 className="pb-0">
-                    Leadership
-                  </h4>
-                  <div className="pb-20">
-                    <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
-                  </div>
-                  <h5 className="pb-10">
-                    Our board of directors drive our company, guide our strategy and lead our people
-                  </h5>
-                </div>
-              </div>
-              <hr />
-            </div>
-          </div>
-        </section>
-         */}
-
-
 
         {/* Values Area Start */}
         <section className="feature-box-area pt-40 rpt-60 pb-0 rpb-20 rel z-1">
