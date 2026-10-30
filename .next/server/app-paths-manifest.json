@@ -1,5 +1,11 @@
 {
-  "/chemplex-products/page": "app/chemplex-products/page.js",
+  "/safra-pro/page": "app/safra-pro/page.js",
   "/page": "app/page.js",
-  "/about/page": "app/about/page.js"
+  "/safra-cryl/page": "app/safra-cryl/page.js",
+  "/chemplex-products/page": "app/chemplex-products/page.js",
+  "/safra-autoCryl/page": "app/safra-autoCryl/page.js",
+  "/safra-pine/page": "app/safra-pine/page.js",
+  "/safra-supertc/page": "app/safra-supertc/page.js",
+  "/safra-shine/page": "app/safra-shine/page.js",
+  "/Bond-Cpvc-Cleaner/page": "app/Bond-Cpvc-Cleaner/page.js"
 }
