@@ -25,36 +25,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/chemplex-products/page.js"
-    ],
-    "/safra-supertc/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/safra-supertc/page.js"
-    ],
-    "/safra-shine/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/safra-shine/page.js"
-    ],
-    "/Bond-PVC-CementGray/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Bond-PVC-CementGray/page.js"
-    ],
-    "/Bond-Pvc-Cement-Transparent/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Bond-Pvc-Cement-Transparent/page.js"
-    ],
-    "/aliphatic-products/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/aliphatic-products/page.js"
-    ],
-    "/aromatic-products/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/aromatic-products/page.js"
     ]
   }
 }

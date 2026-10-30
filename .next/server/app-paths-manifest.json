@@ -1,9 +1,5 @@
 {
-  "/Bond-Pvc-Cement-Transparent/page": "app/Bond-Pvc-Cement-Transparent/page.js",
   "/chemplex-products/page": "app/chemplex-products/page.js",
-  "/aromatic-products/page": "app/aromatic-products/page.js",
-  "/aliphatic-products/page": "app/aliphatic-products/page.js",
-  "/Bond-PVC-CementGray/page": "app/Bond-PVC-CementGray/page.js",
-  "/about/page": "app/about/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/about/page": "app/about/page.js"
 }

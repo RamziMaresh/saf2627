@@ -22,10 +22,11 @@ const page = () => {
                   <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
                 </div>
               </div>
+              {/* 
               <p className="pb-40 text-black">
                 Chemplex mainly provides retail products to customers and marketed in smaller packaging including paint thinner, lacquer thinner, wood varnish, charcoal lighter, linseed oil and CPVC cleacners and other products.
               </p>
-
+*/}
               <div className="col-xl- ">
                 <div className="shop-page-wrap">
                   <div className="row">
@@ -40,7 +41,7 @@ const page = () => {
                         <div className="image">
                           <Link href="safra-pro">
                             <img
-                              className="product-image border"
+                              className="product-image"
                               src="assets/images/products/product1.svg"
                               alt="Product-Pine"
                             />
@@ -68,7 +69,7 @@ const page = () => {
                         <div className="image">
                           <Link href="safra-prime">
                             <img
-                              className="product-image border "
+                              className="product-image"
                               src="assets/images/products/product2.svg"
                               alt="Product-Prime"
                             />
@@ -92,7 +93,7 @@ const page = () => {
                         <div className="image">
                           <Link href="safra-cryl">
                             <img
-                              className="product-image border "
+                              className="product-image"
                               src="assets/images/products/product3.svg"
                               alt="Product-Cryl"
                             />
@@ -116,7 +117,7 @@ const page = () => {
                         <div className="image">
                           <Link href="safra-autoCryl">
                             <img
-                              className="product-image border "
+                              className="product-image"
                               src="assets/images/products/product4.svg"
                               alt="Product"
                             />
@@ -140,7 +141,7 @@ const page = () => {
                         <div className="image">
                           <Link href="safra-supertc">
                             <img
-                              className="product-image border"
+                              className="product-image"
                               src="assets/images/products/product5.svg"
                               alt="Product"
                             />
@@ -164,7 +165,7 @@ const page = () => {
                         <div className="image">
                           <Link href="safra-pine">
                             <img
-                              className="product-image border"
+                              className="product-image"
                               src="assets/images/products/product6.svg"
                               alt="Product"
                             />
@@ -188,7 +189,7 @@ const page = () => {
                         <div className="image">
                           <Link href="safra-shine">
                             <img
-                              className="product-image border"
+                              className="product-image"
                               src="assets/images/products/product7.svg"
                               alt="Product-07-"
                             />
@@ -212,7 +213,7 @@ const page = () => {
                         <div className="image">
                           <Link href="Bond-Cpvc-Cleaner">
                             <img
-                              className="product-image border "
+                              className="product-image"
                               src="assets/images/products/product8.svg"
                               alt="Product"
                             />
@@ -236,7 +237,7 @@ const page = () => {
                         <div className="image">
                           <Link href="Bond-Cpvc-Cement">
                             <img
-                              className="product-image border"
+                              className="product-image"
                               src="assets/images/products/product9.svg"
                               alt="Product"
                             />
@@ -260,7 +261,7 @@ const page = () => {
                         <div className="image">
                           <Link href="Bond-Pvc-Cement-Transparent">
                             <img
-                              className="product-image border"
+                              className="product-image"
                               src="assets/images/products/product10.svg"
                               alt="Product"
                             />
@@ -284,7 +285,7 @@ const page = () => {
                         <div className="image">
                           <Link href="Bond-PVC-CementGray">
                             <img
-                              className="product-image border"
+                              className="product-image"
                               src="assets/images/products/product11.svg"
                               alt="Product"
                             />
