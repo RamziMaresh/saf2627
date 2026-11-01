@@ -1,5 +1,6 @@
 {
   "/page": "app/page.js",
+  "/not-found": "app/not-found.js",
   "/chemplex-products/page": "app/chemplex-products/page.js",
   "/Bond-Pvc-Cement-Transparent/page": "app/Bond-Pvc-Cement-Transparent/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
