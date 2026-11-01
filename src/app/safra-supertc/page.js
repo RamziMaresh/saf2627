@@ -5,6 +5,13 @@ import SafraLayout from "../../layouts/SafraLayout";
 import Link from "next/link";
 import { Nav, Tab } from "react-bootstrap";
 const page = () => {
+
+    const certifications = [
+        { src: "/assets/images/icons/saudi-made.svg", alt: "Saudi Made", label: "Saudi Made", subLabel: "صناعة سعودية" },
+        { src: "/assets/images/icons/iso-9001.svg", alt: "ISO 9001", label: "ISO 9001", subLabel: "ISO 9001:2015" },
+        { src: "/assets/images/icons/safra-quality.svg", alt: "Safra Quality", label: "Safra Quality", subLabel: "Industrial" },
+    ];
+
     return (
         <SafraLayout>
             <PageBanner pageName={"Safra Super TC (LACQUER THINNER)"} />
@@ -101,6 +108,28 @@ const page = () => {
                                     <li>Quickly reduce the viscosity of the lacquer to the required point.</li>
                                     <li>The applied layer of the paint doesn't contain any paint defects.</li>
                                 </ul>
+
+                                <div className="cert-row-container">
+                                    {certifications.map((cert, index) => (
+                                        <div key={index} className="cert-badge-card">
+                                            <div className="cert-img-wrapper">
+                                                <a href="/certificates">
+                                                    <img
+                                                        src={cert.src}
+                                                        alt={cert.alt}
+                                                        width={70}
+                                                        height={70}
+                                                        priority={index === 0}
+                                                    />
+                                                </a>
+                                            </div>
+                                            {/* 
+                      <span className="cert-title">{cert.label}</span>
+                      <span className="cert-subtitle">{cert.subLabel}</span>
+                      */}
+                                        </div>
+                                    ))}
+                                </div>
 
                                 <ul className="category-tags pt-5 rpt-20">
                                     <div className="pb-0">

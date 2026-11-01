@@ -1,10 +1,5 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -16,20 +11,45 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/aromatic-products/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/aromatic-products/page.js"
+      "static/chunks/app/page.js"
     ],
     "/chemplex-products/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/chemplex-products/page.js"
     ],
+    "/safra-supertc/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/safra-supertc/page.js"
+    ],
+    "/safra-shine/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/safra-shine/page.js"
+    ],
+    "/Bond-Cpvc-Cleaner/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Bond-Cpvc-Cleaner/page.js"
+    ],
+    "/Bond-Pvc-Cement-Transparent/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Bond-Pvc-Cement-Transparent/page.js"
+    ],
     "/safra-pro/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/safra-pro/page.js"
+    ],
+    "/certificates/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/certificates/page.js"
     ],
     "/safra-prime/page": [
       "static/chunks/webpack.js",
@@ -46,25 +66,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/safra-autoCryl/page.js"
     ],
-    "/safra-supertc/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/safra-supertc/page.js"
-    ],
     "/safra-pine/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/safra-pine/page.js"
     ],
-    "/safra-shine/page": [
+    "/Bond-Cpvc-Cement/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/safra-shine/page.js"
+      "static/chunks/app/Bond-Cpvc-Cement/page.js"
     ],
-    "/Bond-Cpvc-Cleaner/page": [
+    "/Bond-PVC-CementGray/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/Bond-Cpvc-Cleaner/page.js"
+      "static/chunks/app/Bond-PVC-CementGray/page.js"
     ]
   }
 }

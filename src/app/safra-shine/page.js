@@ -4,6 +4,14 @@ import SafraLayout from "../../layouts/SafraLayout";
 import Link from "next/link";
 import { Nav, Tab } from "react-bootstrap";
 const page = () => {
+
+    const certifications = [
+        { src: "/assets/images/icons/saudi-made.svg", alt: "Saudi Made", label: "Saudi Made", subLabel: "صناعة سعودية" },
+        { src: "/assets/images/icons/iso-9001.svg", alt: "ISO 9001", label: "ISO 9001", subLabel: "ISO 9001:2015" },
+        { src: "/assets/images/icons/safra-quality.svg", alt: "Safra Quality", label: "Safra Quality", subLabel: "Industrial" },
+    ];
+
+
     return (
         <SafraLayout>
             <PageBanner pageName={"Safra SHINE (WOOD VARNISH)"} />
@@ -103,13 +111,35 @@ const page = () => {
                                     <li>Contains no lead in any form.</li>
                                 </ul>
 
+                                <div className="cert-row-container">
+                                    {certifications.map((cert, index) => (
+                                        <div key={index} className="cert-badge-card">
+                                            <div className="cert-img-wrapper">
+                                                <a href="/certificates">
+                                                    <img
+                                                        src={cert.src}
+                                                        alt={cert.alt}
+                                                        width={70}
+                                                        height={70}
+                                                        priority={index === 0}
+                                                    />
+                                                </a>
+                                            </div>
+                                            {/* 
+                      <span className="cert-title">{cert.label}</span>
+                      <span className="cert-subtitle">{cert.subLabel}</span>
+                      */}
+                                        </div>
+                                    ))}
+                                </div>
+
                                 <ul className="category-tags pt-5 rpt-20">
                                     <div className="pb-0">
                                         <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
                                     </div>
                                     <li>
                                         <h6>SAFETY DATA SHEET & TECHNICAL DATA SHEET</h6>
-                                    </li> 
+                                    </li>
                                     <span><i className="fa fa-file-pdf pdf-icon"></i>
                                         <Link href="/assets/images/pdfs/Spp/Msds/Safra Shine.pdf" target="_blank"> MSDS </Link> | <i className="fa fa-file-pdf pdf-icon"></i>
                                         <Link href="/assets/images/pdfs/Spp/tds/SAFRA SHINE TDs.pdf" target="_blank"> TDS </Link>
