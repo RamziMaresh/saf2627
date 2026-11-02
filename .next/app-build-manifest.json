@@ -21,6 +21,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/chemplex-products/page.js"
     ],
+    "/Bond-Cpvc-Cement/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Bond-Cpvc-Cement/page.js"
+    ],
     "/Bond-Pvc-Cement-Transparent/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
