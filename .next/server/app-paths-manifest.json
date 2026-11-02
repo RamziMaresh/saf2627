@@ -2,6 +2,8 @@
   "/page": "app/page.js",
   "/Bond-Cpvc-Cement/page": "app/Bond-Cpvc-Cement/page.js",
   "/chemplex-products/page": "app/chemplex-products/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/Bond-Pvc-Cement-Transparent/page": "app/Bond-Pvc-Cement-Transparent/page.js"
+  "/products/page": "app/products/page.js",
+  "/Bond-PVC-CementGray/page": "app/Bond-PVC-CementGray/page.js",
+  "/Bond-Cpvc-Cleaner/page": "app/Bond-Cpvc-Cleaner/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
