@@ -3860,9 +3860,7 @@ a.theme-btn.style-two {
   }
 }
 
-  {
-
-}
+  {}
 
 .section-title {
   margin-top: -8px;
@@ -5332,9 +5330,11 @@ a.theme-btn.style-two {
   max-width: 950px;
   text-align: justify;
 }
-.ceo-message p{
+
+.ceo-message p {
   color: black;
 }
+
 .management-images {
   position: relative;
 }
@@ -5790,8 +5790,8 @@ a.theme-btn.style-two {
 /*******************************************************/
 /* Footer One */
 .main-footer.footer-one {
-background: #0E7490;
-background: linear-gradient(90deg, rgba(14, 116, 144, 1) 0%, rgba(63, 143, 95, 1) 100%, rgba(130, 130, 43, 1) 100%);
+  background: #0E7490;
+  background: linear-gradient(90deg, rgba(14, 116, 144, 1) 0%, rgba(63, 143, 95, 1) 100%, rgba(130, 130, 43, 1) 100%);
 }
 
 .footer-widget {
@@ -5964,13 +5964,15 @@ background: linear-gradient(90deg, rgba(14, 116, 144, 1) 0%, rgba(63, 143, 95, 1
   background: #CFC040;
 }
 
-.quick-links h6{
+.quick-links h6 {
   color: white;
 }
+
 .quick-links a {
   color: gainsboro;
   font-size: 14px;
 }
+
 .quick-links a:hover {
   color: lightgray;
   font-size: 14px;
@@ -6044,17 +6046,15 @@ background: linear-gradient(90deg, rgba(14, 116, 144, 1) 0%, rgba(63, 143, 95, 1
   background-color: transparent;
 }
 
-.ceo-text {
-  max-width: 1100px;
+.ceo-caption {
   text-align: center;
-  align-items: center;
-  margin: auto;
+  margin: 0;
 }
 
-.ceo-text p {
-  text-align: justify;
-  padding: 5px;
-  color: black;
+.ceo-caption p {
+  margin: 5px 0 0;
+  font-size: 16px;
+  color: #777;
 }
 
 .locales-mobile-btn {
@@ -6219,8 +6219,10 @@ default style for popup
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex: 1; /* Distributes space equally among all 4 items */
-  min-width: 0; /* Prevents overflow breaking flex layout */
+  flex: 1;
+  /* Distributes space equally among all 4 items */
+  min-width: 0;
+  /* Prevents overflow breaking flex layout */
   padding: 10px 6px;
   background-color: #ffffff;
   border: 1px solid #e4e4e7;
@@ -6266,17 +6268,22 @@ default style for popup
     gap: 8px;
     padding: 8px;
   }
+
   .cert-badge-card {
     padding: 12px 6px;
   }
+
   .cert-img-wrapper {
     width: 50px;
     height: 50px;
   }
+
   .cert-title {
     font-size: 11px;
   }
+
   .cert-subtitle {
-    display: none; /* Hides subtitle on tiny screens to save space */
+    display: none;
+    /* Hides subtitle on tiny screens to save space */
   }
 }

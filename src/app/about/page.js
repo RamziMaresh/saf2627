@@ -69,7 +69,7 @@ const About = () => {
 
 
         {/* Images Banner 01 start*/}
-        <section className="solutions-area pb-20 rpb-10">
+        <section className="solutions-area pb-0 rpb-10">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-xl-4 col-md-6 col-sm-10">
@@ -128,62 +128,144 @@ const About = () => {
         {/* Images Banner 01 Ends*/}
 
 
-
-        {/* CEO M Area Start */}
-        <section className="tooltip-area-two bgs-cover">
+        {/* CEO Area Start */}
+        <section className="about-area py-0 rpy-0">
           <div className="container">
-            <div className="row justify-content-center">
-              <div
-                className="col-xl-9 col-lg-11 rmb-10 text-center"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="section-title">
-                  <h4 className="pb-0">
-                    CEO Message
-                  </h4>
-                  <div className="">
-                    <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
-                  </div>
+            <div className="row gap-90 align-items-center">
+              <div className="col-lg-5">
+                <div
+                  className="about-images my-0"
+                  data-aos="fade-left"
+                  data-aos-duration={1500}
+                  data-aos-offset={50}
+                >
+                  <img src="assets/images/md/ceo.png" alt="Safra_CEO" />
                 </div>
-                {/* CEO Photo & Credentials */}
-                <div className="flex-shrink-0 text-center">
-                  <div className="mb-4">
-                    <img
-                      src="assets/images/md/ceo.svg"
-                      alt="CEO"
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <h3>Khalid I. Zagzoog</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">CEO</p>
+                <div className="ceo-caption">
+                <p>
+                  CEO
+                </p>
+                <p>
+                  Khalid I. Zagzoog
+                </p>
                 </div>
-                {/* Message Content */}
-                <div className="ceo-message">
+
+              </div>
+
+              <div className="col-lg-7">
+                <div
+                  className="about-content mt-40 rmt-15"
+                  data-aos="fade-right"
+                  data-aos-duration={1500}
+                  data-aos-offset={50}
+                >
+                  <div className="section-title">
+                    <h4>
+                      CEO Message
+                    </h4>
+                    <div className="">
+                      <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+                    </div>
+                  </div>
                   <p>
-                    People and culture are the biggest assets in Safra, which we continuously cherish and develop to accomplish our objective of highest levels of customer satisfaction.
-                    Through the history of times, we have experienced that the success of us and that of you as our partner, lies in the applied transparency, continuous product
-                    development and efficient process implementation, on which our business approach rests.
-                    We are committed to meet variety of customer requirements in the area of industrial chemicals & solvents, consumer products and related services
-                  </p>
-                  <p className="text-sm leading-relaxed">
-                    To meet the growing needs of industrial & decorative paints, home care products, agricultural pesticides and other end-user products, we are dedicated to expand
-                    our production capabilities, which will further support these industrial sectors with continuous and reliable supply of their raw material requirements. Without any compromise on the environmental health,
-                    we apply highest care to the quality of products that we produce, together with meeting our business commitments with accuracy and on-time
+                    People and culture are the biggest assets in Safra, which we continuously cherish and develop to
+                    accomplish our objective of highest levels of customer satisfaction. Through the history of times,
+                    we have experienced that the success of us and that of you as our partner,
+                    lies in the applied transparency, continuous product development and efficient process implementation,
+                    on which our business approach rests. We are committed to meet variety of customer requirements
+                    in the area of industrial chemicals & solvents, consumer products and related services.
                   </p>
                   <p>
-                    We take pride in acknowledging our contribution to the Saudi economy and society by producing & supplying industrial raw material for growth of local industry
-                    and by training and developing Saudi youth in various fields of business & management, respectively.
-                    We at Safra, believe in empowering and rewarding our intellectual capital and providing a motivating work environment within the guidelines of Islamic ethics and culture.
+                    To meet the growing needs of industrial & decorative paints, home care products, agricultural pesticides
+                    and other end-user products, we are dedicated to expand our production capabilities, which will further
+                    support these industrial sectors with continuous and reliable supply of their raw material requirements.
+                    Without any compromise on the environmental health, we apply highest care to the quality of products
+                    that we produce, together with meeting our business commitments with accuracy and on-time.
+                  </p>
+                  <p>
+                    We take pride in acknowledging our contribution to the Saudi economy and society by producing & supplying
+                    industrial raw material for growth of local industry and by training and developing Saudi youth in
+                    various fields of business & management, respectively. We at Safra, believe in empowering and
+                    rewarding our intellectual capital and providing a motivating work environment within the
+                    guidelines of Islamic ethics and culture.
                   </p>
                 </div>
               </div>
-              <hr />
+            </div>
+            <hr />
+          </div>
+        </section>
+        {/* CEO Area End */}
+
+
+        
+        {/* Values Area Start */}
+        <section className="feature-box-area pt-40 rpt-60 pb-0 rpb-20 rel z-1">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-xl-7 col-lg-9 col-md-11">
+                <div
+                  className="section-title text-center mb-40"
+                >
+                  <h4>
+                    Corporate <span>Values</span>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div className="row justify-content-center">
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Compliance to Business Principles</h5>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Customers Orientation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Transparency</h5>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Integrity & Honesty</h5>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-4 col-md-6"
+              >
+                <div className="iconic-box style-seven">
+                  <div className="content">
+                    <h5>Corporate Social Responsibility </h5>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
-        {/* CEO M Area End */}
+        {/* Values Area End */}
 
 
 
@@ -387,74 +469,6 @@ const About = () => {
         </section>
         {/* Corporate Area End */}
 
-
-        {/* Values Area Start */}
-        <section className="feature-box-area pt-40 rpt-60 pb-0 rpb-20 rel z-1">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-xl-7 col-lg-9 col-md-11">
-                <div
-                  className="section-title text-center mb-40"
-                >
-                  <h4>
-                    Corporate <span>Values</span>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="row justify-content-center">
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Compliance to Business Principles</h5>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Customers Orientation</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Transparency</h5>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Integrity & Honesty</h5>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-4 col-md-6"
-              >
-                <div className="iconic-box style-seven">
-                  <div className="content">
-                    <h5>Corporate Social Responsibility </h5>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </section>
-        {/* Values Area End */}
 
 
 
