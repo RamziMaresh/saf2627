@@ -6877,7 +6877,7 @@ default style for popup
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 16px;
+  /*padding: 16px;*/
   box-sizing: border-box;
 }
 
@@ -6889,11 +6889,10 @@ default style for popup
   justify-content: center;
   flex: 1; /* Distributes space equally among all 4 items */
   min-width: 0; /* Prevents overflow breaking flex layout */
-  padding: 20px 12px;
+  padding: 10px 6px;
   background-color: #ffffff;
   border: 1px solid #e4e4e7;
   border-radius: 12px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   transition: all 0.2s ease-in-out;
 }
 
@@ -6903,7 +6902,7 @@ default style for popup
   border-color: #d4d4d8;
 }
 
-/* Image wrappers to force uniform bounding boxes */
+/* Image wrappers to force uniform bounding boxes
 .cert-img-wrapper {
   position: relative;
   width: 70px;
@@ -6913,7 +6912,7 @@ default style for popup
   align-items: center;
   justify-content: center;
 }
-
+ */
 .cert-img-wrapper img {
   max-width: 100%;
   max-height: 100%;

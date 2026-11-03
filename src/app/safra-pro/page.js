@@ -17,10 +17,10 @@ const page = () => {
     <SafraLayout>
       <PageBanner pageName={"Safra Pro"} />
       {/* Product Details Start */}
-      <section className="product-details pb-100 pt-100 rpt-100">
+      <section className="product-details pb-100 pt-100 rpt-60">
         <div className="container">
           <div className="row gap-110">
-            <div className="col-lg-6">{/**7 */}
+            <div className="col-lg-5">{/**7 */}
               <div
                 className="product-details-images rmb-55"
                 data-aos="fade-left"
@@ -92,7 +92,8 @@ const page = () => {
                 </Tab.Container>
               </div>
             </div>
-            <div className="col-lg-5">
+
+            <div className="col-lg-6">{/*5*/}
               <div
                 className="product-details-content"
                 data-aos="fade-right"

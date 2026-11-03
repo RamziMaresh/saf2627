@@ -21,30 +21,50 @@
       "static/chunks/main-app.js",
       "static/chunks/app/chemplex-products/page.js"
     ],
-    "/Bond-Cpvc-Cement/page": [
+    "/safra-supertc/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/Bond-Cpvc-Cement/page.js"
+      "static/chunks/app/safra-supertc/page.js"
+    ],
+    "/safra-pro/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/safra-pro/page.js"
+    ],
+    "/safra-prime/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/safra-prime/page.js"
+    ],
+    "/safra-cryl/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/safra-cryl/page.js"
+    ],
+    "/safra-autoCryl/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/safra-autoCryl/page.js"
+    ],
+    "/safra-pine/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/safra-pine/page.js"
+    ],
+    "/safra-shine/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/safra-shine/page.js"
     ],
     "/Bond-Pvc-Cement-Transparent/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/Bond-Pvc-Cement-Transparent/page.js"
     ],
-    "/aliphatic-products/page": [
+    "/Bond-Cpvc-Cement/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/aliphatic-products/page.js"
-    ],
-    "/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about/page.js"
-    ],
-    "/products/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/products/page.js"
+      "static/chunks/app/Bond-Cpvc-Cement/page.js"
     ],
     "/Bond-PVC-CementGray/page": [
       "static/chunks/webpack.js",
@@ -55,11 +75,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/Bond-Cpvc-Cleaner/page.js"
-    ],
-    "/safra-shine/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/safra-shine/page.js"
     ]
   }
 }
