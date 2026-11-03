@@ -156,6 +156,12 @@ const Nav = ({
                   <li>
                     <Link href="certificates">Certificates</Link>
                   </li>
+                  <li>
+                    <Link href="news">News</Link>
+                  </li>
+                  <li>
+                    <Link href="gallery">Gallery</Link>
+                  </li>
                 </ul>
                 <div className="dropdown-btn">
                   &nbsp;<span className="far fa-angle-down" />
@@ -310,14 +316,20 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
 
           <li className="dropdown">
             <Link href="scm-marketing">SCM & Marketing</Link>
-                            <ul>
-                  <li>
-                    <Link href="certificates">Certificates</Link>
-                  </li>
-                </ul>
-                <div className="dropdown-btn">
-                  &nbsp;<span className="far fa-angle-down" />
-                </div>
+            <ul>
+              <li>
+                <Link href="certificates">Certificates</Link>
+              </li>
+              <li>
+                <Link href="news">News</Link>
+              </li>
+              <li>
+                <Link href="gallery">Gallery</Link>
+              </li>
+            </ul>
+            <div className="dropdown-btn">
+              &nbsp;<span className="far fa-angle-down" />
+            </div>
           </li>
           <li className="dropdown">
             <Link href="careers">Careers</Link>

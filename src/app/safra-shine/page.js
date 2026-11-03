@@ -16,7 +16,7 @@ const page = () => {
         <SafraLayout>
             <PageBanner pageName={"Safra SHINE (WOOD VARNISH)"} />
             {/* Product Details Start */}
-            <section className="product-details pb-100 pt-100 rpt-60">
+            <section className="product-details pb-60 pt-60 rpt-60">
                 <div className="container">
                     <div className="row gap-110">
                         <div className="col-lg-5">{/**7 */}

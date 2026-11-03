@@ -14,18 +14,22 @@ const page = () => {
         <section className="shop-area py-100 rpy-100">
           <div className="container">
             <div className="row">
-              <div className="col-xl-9 col-lg-11 pt-0 pb-0">
+
+              <div className="">
                 <div className="tag-share pt-0 pb-0">
                   <h4>Chemplex Products</h4>
                 </div>
                 <div className="pb-20">
                   <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
                 </div>
+                <p className="pb-40 text-black">
+                  ***************************************************************************
+                </p>
               </div>
-              {/* 
-              <p className="pb-40 text-black">
-                Chemplex mainly provides retail products to customers and marketed in smaller packaging including paint thinner, lacquer thinner, wood varnish, charcoal lighter, linseed oil and CPVC cleacners and other products.
-              </p>
+
+
+              {/*        
+
 */}
               <div className="col-xl- ">
                 <div className="shop-page-wrap">

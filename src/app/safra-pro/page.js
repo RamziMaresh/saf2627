@@ -17,7 +17,7 @@ const page = () => {
     <SafraLayout>
       <PageBanner pageName={"Safra Pro"} />
       {/* Product Details Start */}
-      <section className="product-details pb-100 pt-100 rpt-60">
+      <section className="product-details pb-60 pt-60 rpt-60">
         <div className="container">
           <div className="row gap-110">
             <div className="col-lg-5">{/**7 */}
@@ -117,15 +117,15 @@ const page = () => {
                 <div className="cert-row-container">
                   {certifications.map((cert, index) => (
                     <div key={index} className="cert-badge-card">
-                      <div className="cert-img-wrapper"> 
+                      <div className="cert-img-wrapper">
                         <a href="/certificates">
-                        <img
-                          src={cert.src}
-                          alt={cert.alt}
-                          width={70}
-                          height={70}
-                          priority={index === 0}
-                        />
+                          <img
+                            src={cert.src}
+                            alt={cert.alt}
+                            width={70}
+                            height={70}
+                            priority={index === 0}
+                          />
                         </a>
                       </div>
                       {/* 
@@ -143,14 +143,16 @@ const page = () => {
                     <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
                   </div>
                   <li>
-                    <h6>SAFETY DATA SHEET & TECHNICAL DATA SHEET</h6>
+                    <h6>Safety Data Sheet & Technical Data Sheet :</h6>
                   </li>
-                  <span><i className="fa fa-file-pdf pdf-icon"></i>
+                  <span>
+                    <i className="fa fa-file-pdf pdf-icon"></i>
                     <Link href="/assets/images/pdfs/Spp/Msds/Safra Pro.pdf" target="_blank"> MSDS </Link> | <i className="fa fa-file-pdf pdf-icon"></i>
-                    <Link href="/assets/images/pdfs/Spp/tds/SAFRA PRO TDs.pdf" target="_blank"> TDS </Link>
+                    <Link href="/assets/images/pdfs/Spp/tds/SAFRA PRO TDs.pdf" target="_blank"> TDS </Link> 
                   </span>
                 </ul>
               </div>
+
             </div>
           </div>
 
