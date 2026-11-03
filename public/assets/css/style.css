@@ -4668,10 +4668,6 @@ a.theme-btn.style-two {
     display: none;
   }
 
-  .ceo-text p {
-    font-size: 10px;
-    line-height: 20px;
-  }
 
 }
 
@@ -5331,9 +5327,6 @@ a.theme-btn.style-two {
   text-align: justify;
 }
 
-.ceo-message p {
-  color: black;
-}
 
 .management-images {
   position: relative;
@@ -6044,6 +6037,28 @@ a.theme-btn.style-two {
 .global-icon {
   color: black;
   background-color: transparent;
+}
+
+
+/* ceo part */
+
+.about-main-text {
+  max-width: 1100px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.about-main-text  p {
+  text-align: justify;
+  padding: 5px;
+  color: black;
+}
+
+
+.ceo-msg p{
+  font-size: 14px;
+  color: #001726;
 }
 
 .ceo-caption {

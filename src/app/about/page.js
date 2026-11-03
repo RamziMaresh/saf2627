@@ -36,7 +36,7 @@ const About = () => {
           <div className="container container-1070">
             <div className="row pb-10 rpb-20 gap-100 align-items-center">
 
-              <div className="ceo-text">
+              <div className="about-main-text">
                 <div
                   className="ai-content mb-40 rmb-0"
                   data-aos="fade-right"
@@ -121,7 +121,6 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <hr />
             </div>
           </div>
         </section>
@@ -142,12 +141,12 @@ const About = () => {
                   <img src="assets/images/md/ceo.png" alt="Safra_CEO" />
                 </div>
                 <div className="ceo-caption">
-                <p>
-                  CEO
-                </p>
-                <p>
-                  Khalid I. Zagzoog
-                </p>
+                  <p>
+                    CEO
+                  </p>
+                  <p>
+                    Khalid I. Zagzoog
+                  </p>
                 </div>
 
               </div>
@@ -167,28 +166,31 @@ const About = () => {
                       <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
                     </div>
                   </div>
-                  <p>
-                    People and culture are the biggest assets in Safra, which we continuously cherish and develop to
-                    accomplish our objective of highest levels of customer satisfaction. Through the history of times,
-                    we have experienced that the success of us and that of you as our partner,
-                    lies in the applied transparency, continuous product development and efficient process implementation,
-                    on which our business approach rests. We are committed to meet variety of customer requirements
-                    in the area of industrial chemicals & solvents, consumer products and related services.
-                  </p>
-                  <p>
-                    To meet the growing needs of industrial & decorative paints, home care products, agricultural pesticides
-                    and other end-user products, we are dedicated to expand our production capabilities, which will further
-                    support these industrial sectors with continuous and reliable supply of their raw material requirements.
-                    Without any compromise on the environmental health, we apply highest care to the quality of products
-                    that we produce, together with meeting our business commitments with accuracy and on-time.
-                  </p>
-                  <p>
-                    We take pride in acknowledging our contribution to the Saudi economy and society by producing & supplying
-                    industrial raw material for growth of local industry and by training and developing Saudi youth in
-                    various fields of business & management, respectively. We at Safra, believe in empowering and
-                    rewarding our intellectual capital and providing a motivating work environment within the
-                    guidelines of Islamic ethics and culture.
-                  </p>
+                  <div className="ceo-msg">
+                    <p>
+                      People and culture are the biggest assets in Safra, which we continuously cherish and develop to
+                      accomplish our objective of highest levels of customer satisfaction. Through the history of times,
+                      we have experienced that the success of us and that of you as our partner,
+                      lies in the applied transparency, continuous product development and efficient process implementation,
+                      on which our business approach rests. We are committed to meet variety of customer requirements
+                      in the area of industrial chemicals & solvents, consumer products and related services.
+                    </p>
+                    <p>
+                      To meet the growing needs of industrial & decorative paints, home care products, agricultural pesticides
+                      and other end-user products, we are dedicated to expand our production capabilities, which will further
+                      support these industrial sectors with continuous and reliable supply of their raw material requirements.
+                      Without any compromise on the environmental health, we apply highest care to the quality of products
+                      that we produce, together with meeting our business commitments with accuracy and on-time.
+                    </p>
+                    <p>
+                      We take pride in acknowledging our contribution to the Saudi economy and society by producing & supplying
+                      industrial raw material for growth of local industry and by training and developing Saudi youth in
+                      various fields of business & management, respectively. We at Safra, believe in empowering and
+                      rewarding our intellectual capital and providing a motivating work environment within the
+                      guidelines of Islamic ethics and culture.
+                    </p>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -270,13 +272,13 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <hr />
+
             </div>
           </div>
         </section>
         {/* Leadership Area End */}
 
-        
+
         {/* Values Area Start */}
         <section className="feature-box-area pt-40 rpt-60 pb-40 rpb-20 rel z-1">
           <div className="container">

@@ -1,6 +1,6 @@
 {
-  "/chemplex-products/page": "app/chemplex-products/page.js",
-  "/about/page": "app/about/page.js",
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/certificates/page": "app/certificates/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/about/page": "app/about/page.js"
 }
