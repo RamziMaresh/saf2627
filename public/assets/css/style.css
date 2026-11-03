@@ -6204,23 +6204,27 @@ default style for popup
 .cert-row-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 16px;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  /*padding: 16px;*/
+  /*padding: 16px;
+    justify-content: space-between;
+
+  */
   box-sizing: border-box;
 }
 
 /* Individual badge card wrapper */
 .cert-badge-card {
   display: flex;
-  flex-direction: column;
+
+  /* Distributes space equally among all 4 items 
+    flex-direction: column;
   align-items: center;
   justify-content: center;
   flex: 1;
-  /* Distributes space equally among all 4 items */
+  */
   min-width: 0;
   /* Prevents overflow breaking flex layout */
   padding: 10px 6px;

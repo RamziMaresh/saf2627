@@ -1,6 +1,10 @@
 {
-  "/page": "app/page.js",
+  "/aliphatic-products/page": "app/aliphatic-products/page.js",
+  "/Bond-Pvc-Cement-Transparent/page": "app/Bond-Pvc-Cement-Transparent/page.js",
   "/chemplex-products/page": "app/chemplex-products/page.js",
+  "/page": "app/page.js",
+  "/careers/page": "app/careers/page.js",
+  "/safra-pro/page": "app/safra-pro/page.js",
   "/safra-supertc/page": "app/safra-supertc/page.js",
-  "/about/page": "app/about/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
