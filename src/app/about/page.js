@@ -131,7 +131,7 @@ const About = () => {
         {/* CEO Area Start */}
         <section className="about-area py-0 rpy-0">
           <div className="container">
-            <div className="row gap-90 align-items-center">
+            <div className="row gap-90 text-center align-items-center">
               <div className="col-lg-5">
                 <div
                   className="about-images my-0"
@@ -197,10 +197,88 @@ const About = () => {
         </section>
         {/* CEO Area End */}
 
+        {/* Leadership Area Start */}
+        <section className="project-area pt-40 rpt-40 pb-0 rpb-40">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-xl-6 col-lg-8 col-md-10">
+                <div
+                  className="section-title text-center mb-60"
+                  data-aos="fade-up"
+                  data-aos-duration={1500}
+                  data-aos-offset={50}
+                >
+                  <div className="section-title">
+                    <h4 className="pb-0">  Leadership </h4>
+                    <div className="">
+                      <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+                    </div>
+                    <p>Our board of directors drive our company, guide our strategy and lead our people</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="row justify-content-center">
+              <div className="col-xl-4 col-md-6 col-sm-10">
+                <div
+                  className="fancy-box"
+                  data-aos="fade-up"
+                  data-aos-duration={1000}
+                  data-aos-offset={50}
+                >
+                  <div className="image">
+                    <img
+                      src="assets/images/fancy-box/fancy-box4.svg"
+                      alt="Safra_leader04"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-md-6 col-sm-10">
+                <div
+                  className="fancy-box"
+                  data-aos="fade-up"
+                  data-aos-delay={200}
+                  data-aos-duration={1000}
+                  data-aos-offset={50}
+                >
+                  <div className="image">
+                    <img
+                      src="assets/images/fancy-box/fancy-box5.svg"
+                      alt="Safra_leader05"
+                    />
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="col-xl-4 col-md-6 col-sm-10">
+                <div
+                  className="fancy-box"
+                  data-aos="fade-up"
+                  data-aos-delay={400}
+                  data-aos-duration={1000}
+                  data-aos-offset={50}
+                >
+                  <div className="image">
+                    <img
+                      src="assets/images/fancy-box/fancy-box6.svg"
+                      alt="Safra_leader06"
+                    />
+                  </div>
+                </div>
+              </div>
+              <hr />
+            </div>
+          </div>
+        </section>
+        {/* Leadership Area End */}
 
         
         {/* Values Area Start */}
-        <section className="feature-box-area pt-40 rpt-60 pb-0 rpb-20 rel z-1">
+        <section className="feature-box-area pt-40 rpt-60 pb-40 rpb-20 rel z-1">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-xl-7 col-lg-9 col-md-11">
@@ -266,104 +344,6 @@ const About = () => {
           </div>
         </section>
         {/* Values Area End */}
-
-
-
-        {/* Leadership Area Start */}
-        <section className="project-area pt-40 rpt-40 pb-40 rpb-40">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-xl-6 col-lg-8 col-md-10">
-                <div
-                  className="section-title text-center mb-60"
-                  data-aos="fade-up"
-                  data-aos-duration={1500}
-                  data-aos-offset={50}
-                >
-                  <div className="section-title">
-                    <h4 className="pb-0">  Leadership </h4>
-                    <div className="">
-                      <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
-                    </div>
-                    <p>Our board of directors drive our company, guide our strategy and lead our people</p>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row justify-content-center">
-              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                <div
-                  className="fancy-box style-two"
-                  data-aos="fade-up"
-                  data-aos-duration={1000}
-                  data-aos-offset={50}
-                >
-                  <div className="image">
-                    <img
-                      src="assets/images/about/leader01.svg"
-                      alt="Fancy Box"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                <div
-                  className="fancy-box style-two"
-                  data-aos="fade-up"
-                  data-aos-delay={200}
-                  data-aos-duration={1000}
-                  data-aos-offset={50}
-                >
-                  <div className="image">
-                    <img
-                      src="assets/images/about/leader02.svg"
-                      alt="Fancy Box"
-                    />
-                  </div>
-
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                <div
-                  className="fancy-box style-two"
-                  data-aos="fade-up"
-                  data-aos-delay={400}
-                  data-aos-duration={1000}
-                  data-aos-offset={50}
-                >
-                  <div className="image">
-                    <img
-                      src="assets/images/about/leader03.svg"
-                      alt="Fancy Box"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                <div
-                  className="fancy-box style-two"
-                  data-aos="fade-up"
-                  data-aos-delay={600}
-                  data-aos-duration={1000}
-                  data-aos-offset={50}
-                >
-                  <div className="image">
-                    <img
-                      src="assets/images/about/leader04.svg"
-                      alt="Fancy Box"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* Leadership Area End */}
-
-
-
-
 
 
         {/* Corporate Area Start */}
