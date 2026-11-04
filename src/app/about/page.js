@@ -14,7 +14,7 @@ const About = () => {
         <PageBanner pageName={"About Us"} />
 
         {/* About Area Start */}
-        <section className="artificial-intelligence-area rel pt-60 rpt-60 pb-40 rpb-10 z-2">
+        <section className="rel pt-60 rpt-60 pb-40 rpb-10 z-2">
           <div className="container">
 
             <div className="row justify-content-center">
@@ -47,7 +47,7 @@ const About = () => {
                     The production capacity of SAFRA refinery is continuously expanding to meet
                     increasing demand for products while keeping pace with the latest technological
                     developments and simultaneously meeting stringent international standards for
-                    manufacturing solvents.<br />
+                    manufacturing solvents.
 
                     The plant is equipped with necessary technological flexibility and pool of technical
                     experts to produce innovative tailor made products conforming to the customer
@@ -128,24 +128,23 @@ const About = () => {
 
 
         {/* CEO Area Start */}
-        <section className="about-area py-0 rpy-0">
+        <section className="bg-black py-0 rpy-0">
           <div className="container">
             <div className="row gap-90 text-center align-items-center">
               <div className="col-lg-5">
                 <div
-                  className="about-images my-0"
+                  className="about-images my-20"
                   data-aos="fade-left"
                   data-aos-duration={1500}
                   data-aos-offset={50}
                 >
-                  <img src="assets/images/md/ceo.png" alt="Safra_CEO" />
+                  <img src="assets/images/md/ceo.svg" alt="Safra_CEO" />
                 </div>
                 <div className="ceo-caption">
+
                   <p>
+                    Khalid I. Zagzoog <br />
                     CEO
-                  </p>
-                  <p>
-                    Khalid I. Zagzoog
                   </p>
                 </div>
 
@@ -158,7 +157,7 @@ const About = () => {
                   data-aos-duration={1500}
                   data-aos-offset={50}
                 >
-                  <div className="section-title">
+                  <div className="ceo-msg-title">
                     <h4>
                       CEO Message
                     </h4>
@@ -286,6 +285,9 @@ const About = () => {
               <div className="col-xl-7 col-lg-9 col-md-11">
                 <div
                   className="section-title text-center mb-40"
+                  data-aos="fade-up"
+                  data-aos-duration={1500}
+                  data-aos-offset={50}
                 >
                   <h4>
                     Corporate <span>Values</span>
@@ -296,6 +298,9 @@ const About = () => {
             <div className="row justify-content-center">
               <div
                 className="col-xl-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
               >
                 <div className="iconic-box style-seven">
                   <div className="content">
@@ -305,6 +310,9 @@ const About = () => {
               </div>
               <div
                 className="col-xl-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
               >
                 <div className="iconic-box style-seven">
                   <div className="content">
@@ -316,6 +324,9 @@ const About = () => {
             <div className="row">
               <div
                 className="col-xl-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
               >
                 <div className="iconic-box style-seven">
                   <div className="content">
@@ -325,6 +336,9 @@ const About = () => {
               </div>
               <div
                 className="col-xl-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
               >
                 <div className="iconic-box style-seven">
                   <div className="content">
@@ -334,6 +348,9 @@ const About = () => {
               </div>
               <div
                 className="col-xl-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
               >
                 <div className="iconic-box style-seven">
                   <div className="content">
@@ -348,9 +365,10 @@ const About = () => {
         {/* Values Area End */}
 
 
-        {/* Corporate Area Start */}
-        <section className="tab-area-two pt-0 rpt-40"
-          style={{ backgroundImage: "url(assets/images/backgrounds/tolltip.svg)" }}>
+        {/* Corporate Area Start
+                  style={{ backgroundImage: "url(assets/images/backgrounds/tolltip.svg)" }}
+                   */}
+        <section className="bg-black  pt-60 pb-60 rpt-40">
           <div className="container">
             <Tab.Container defaultActiveKey={"tabTwo1"}>
               <div
@@ -360,7 +378,7 @@ const About = () => {
                 data-aos-offset={50}
               >
 
-                <div className="section-title">
+                <div className="section-title-about-Purpose">
                   <h4 className="pb-0">
                     Corporate Purpose
                   </h4>
@@ -463,6 +481,7 @@ const About = () => {
 
               <div
                 className="col-xl-9 col-lg-11 rmb-10 text-center"
+                data-aos="fade-left"
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >

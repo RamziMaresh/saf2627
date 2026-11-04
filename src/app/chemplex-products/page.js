@@ -11,7 +11,7 @@ const page = () => {
 
       <SafraLayout>
         <PageBanner pageName={"Chemplex"} pageTitle={"Chemplex "} />
-        <section className="shop-area py-100 rpy-100">
+        <section className="shop-area py-100 rpy-100 ">
           <div className="container">
             <div className="row">
 
@@ -27,11 +27,7 @@ const page = () => {
                 </p>
               </div>
 
-
-              {/*        
-
-*/}
-              <div className="col-xl- ">
+              <div className="col-xl-  ">
                 <div className="shop-page-wrap">
                   <div className="row">
                     <div
