@@ -5244,6 +5244,9 @@ a.theme-btn.style-two {
 
 .icon-list.style-two p {
   color: lightgray;
+  font-size: 14px;
+  text-align: justify;
+
 }
 
 .icon-list.style-two li i {
@@ -5410,7 +5413,6 @@ a.theme-btn.style-two {
 /*******************************************************/
 
 
-
 .contact-form .form-contact-btn {
   color: black;
   font-weight: bold;
@@ -5470,7 +5472,7 @@ a.theme-btn.style-two {
 .contact-form .form-group label {
   font-size: 15px;
   margin-bottom: 5px;
-  color: var(--primary-color);
+  color: black;
 }
 
 .contact-form .form-group .nice-select {
@@ -5492,7 +5494,7 @@ a.theme-btn.style-two {
 }
 
 .iconic-box-contact.style-four {
-  background: linear-gradient(to right, #0f766e, #134e4a);
+  background: linear-gradient(to right, #0d9488, #115e59);
   border-radius: 15px;
   padding: 20px 0px 10px 0px;
   text-align: center;
