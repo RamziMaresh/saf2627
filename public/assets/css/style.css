@@ -428,7 +428,7 @@ input[type=radio] {
 
 /* Color + Background */
 .bg-black {
-background-image: linear-gradient(to right, oklch(51.1% 0.096 186.391), oklch(38.6% 0.063 188.416));
+background: linear-gradient(to right, #0f766e, #134e4a);
 
 
 }
@@ -5174,7 +5174,7 @@ a.theme-btn.style-two {
 }
 
 .about-images img {
-  border-radius: 10px;
+  border-radius: 1px;
 }
 
 
@@ -5621,8 +5621,11 @@ a.theme-btn.style-two {
 /*******************************************************/
 /* Footer One */
 .main-footer.footer-one {
-background-image: linear-gradient(to right, oklch(51.1% 0.096 186.391), oklch(38.6% 0.063 188.416));
-
+background: linear-gradient(to right, #0f766e, #134e4a);
+/*
+background: #164E63;
+background: linear-gradient(90deg, rgba(22, 78, 99, 1) 0%, rgba(19, 78, 74, 1) 100%);
+*/
 }
 
 .footer-widget {

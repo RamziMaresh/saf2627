@@ -1,7 +1,7 @@
 {
   "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
   "/chemplex-products/page": "app/chemplex-products/page.js",
-  "/safra-supertc/page": "app/safra-supertc/page.js",
-  "/products/page": "app/products/page.js"
+  "/scm-marketing/page": "app/scm-marketing/page.js",
+  "/Bond-Cpvc-Cement/page": "app/Bond-Cpvc-Cement/page.js",
+  "/about/page": "app/about/page.js"
 }

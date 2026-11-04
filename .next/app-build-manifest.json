@@ -35,6 +35,21 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/safra-supertc/page.js"
+    ],
+    "/scm-marketing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/scm-marketing/page.js"
+    ],
+    "/safra-pine/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/safra-pine/page.js"
+    ],
+    "/Bond-Cpvc-Cement/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Bond-Cpvc-Cement/page.js"
     ]
   }
 }
