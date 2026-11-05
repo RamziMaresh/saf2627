@@ -1,7 +1,7 @@
 {
-  "/chemplex-products/page": "app/chemplex-products/page.js",
-  "/about/page": "app/about/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
-  "/Bond-Pvc-Cement-Transparent/page": "app/Bond-Pvc-Cement-Transparent/page.js"
+  "/chemplex-products/page": "app/chemplex-products/page.js",
+  "/not-found": "app/not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/safra-pro/page": "app/safra-pro/page.js"
 }
