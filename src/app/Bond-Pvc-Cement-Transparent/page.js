@@ -7,10 +7,10 @@ const page = () => {
 
 
     const certifications = [
-        { src: "/assets/images/icons/saudi-made.svg", alt: "Saudi Made", label: "Saudi Made", subLabel: "صناعة سعودية" },
-        { src: "/assets/images/icons/iso-9001.svg", alt: "ISO 9001", label: "ISO 9001", subLabel: "ISO 9001:2015" },
-        { src: "/assets/images/icons/nsf.svg", alt: "NSF Certified", label: "NSF", subLabel: "Public Health" },
-        { src: "/assets/images/icons/safra-quality.svg", alt: "Safra Quality", label: "Safra Quality", subLabel: "Industrial" },
+        { src: "/assets/images/icons/saudi-made.png", alt: "Saudi Made", label: "Saudi Made", subLabel: "صناعة سعودية" },
+        { src: "/assets/images/icons/iso-9001.png", alt: "ISO 9001", label: "ISO 9001", subLabel: "ISO 9001:2015" },
+        { src: "/assets/images/icons/nsf.png", alt: "NSF Certified", label: "NSF", subLabel: "Public Health" },
+        { src: "/assets/images/icons/safra-quality.png", alt: "Safra Quality", label: "Safra Quality", subLabel: "Industrial" },
     ];
 
     return (
