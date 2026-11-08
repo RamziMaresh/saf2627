@@ -1,6 +1,6 @@
 {
-  "/chemplex-products/page": "app/chemplex-products/page.js",
+  "/about/page": "app/about/page.js",
   "/page": "app/page.js",
-  "/safra-pro/page": "app/safra-pro/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/chemplex-products/page": "app/chemplex-products/page.js",
+  "/scm-marketing/page": "app/scm-marketing/page.js"
 }

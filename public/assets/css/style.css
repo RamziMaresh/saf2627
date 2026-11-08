@@ -4000,7 +4000,7 @@ a.theme-btn.style-two {
   height: 100%;
   z-index: -1;
   opacity: 0.08;
-  background: var(--primary-color);
+  background: #3FB0A7;
 }
 
 .iconic-box.style-seven .icon {
@@ -4054,6 +4054,7 @@ a.theme-btn.style-two {
   font-size: 20px;
   margin-bottom: 10px;
   letter-spacing: -0.4px;
+  color: lightgray;
 }
 
 .iconic-box.style-seven p {
@@ -5261,11 +5262,14 @@ a.theme-btn.style-two {
 }
 
 .icon-list li {
-  letter-spacing: 1.5px;
+  letter-spacing: 0.5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   color: white;
+}
+.text-black{
+  color: black;
 }
 
 .icon-list li:not(:last-child) {
@@ -5277,7 +5281,6 @@ a.theme-btn.style-two {
   -ms-flex: none;
   flex: none;
   margin-top: 2px;
-  font-weight: 400;
   margin-right: 15px;
   color: var(--primary-color);
 }

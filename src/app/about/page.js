@@ -279,12 +279,12 @@ const About = () => {
 
 
         {/* Values Area Start */}
-        <section className="feature-box-area pt-40 rpt-60 pb-40 rpb-20 rel z-1">
+        <section className="bg-black feature-box-area pt-40 rpt-60 pb-40 rpb-20 rel z-1">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-xl-7 col-lg-9 col-md-11">
                 <div
-                  className="section-title text-center mb-40"
+                  className="section-title-about-Purpose text-center mb-40"
                   data-aos="fade-up"
                   data-aos-duration={1500}
                   data-aos-offset={50}
@@ -292,6 +292,9 @@ const About = () => {
                   <h4>
                     Corporate <span>Values</span>
                   </h4>
+                  <div className="">
+                    <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+                  </div>
                 </div>
               </div>
             </div>
@@ -368,7 +371,7 @@ const About = () => {
         {/* Corporate Area Start
                   style={{ backgroundImage: "url(assets/images/backgrounds/tolltip.svg)" }}
                    */}
-        <section className="bg-black  pt-60 pb-60 rpt-40">
+        <section className="bg-black  pt-10 pb-60 rpt-40">
           <div className="container">
             <Tab.Container defaultActiveKey={"tabTwo1"}>
               <div
