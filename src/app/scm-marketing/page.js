@@ -106,7 +106,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="tag-share pt-10 pb-0">
-                  <h5>Customer Service</h5>
+                  <h6>Customer Service</h6>
                 </div>
                 <div className="pb-20">
                   <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
@@ -123,7 +123,7 @@ const page = () => {
                     Safra offers a full package of support to their Customers including the following:
                   </b>
                 </p>
-                <ul className="icon-list style-two mt-40 mb-40 ">
+                <ul className=" style-two mt-20 mb-40">
                   <li>
                     <i className="fal fa-check" />  Advisory Support for Product Selection.
                   </li>
@@ -153,7 +153,7 @@ const page = () => {
           <div className="row justify-content-center">
             <div className="col-xl-9 col-lg-11">
               <div className="tag-share pt-0">
-                <h5>Logistics</h5>
+                <h6>Logistics</h6>
               </div>
               <div className="pb-20">
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />

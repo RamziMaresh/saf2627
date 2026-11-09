@@ -21,15 +21,25 @@
       "static/chunks/main-app.js",
       "static/chunks/app/about/page.js"
     ],
+    "/scm-marketing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/scm-marketing/page.js"
+    ],
+    "/products/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/products/page.js"
+    ],
     "/chemplex-products/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/chemplex-products/page.js"
     ],
-    "/scm-marketing/page": [
+    "/certificates/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/scm-marketing/page.js"
+      "static/chunks/app/certificates/page.js"
     ]
   }
 }
