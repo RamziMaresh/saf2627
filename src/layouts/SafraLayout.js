@@ -3,12 +3,15 @@ import { safraUtility } from "../utility";
 import { Fragment, useEffect } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
+import Headertwo from "./Headertwo";
+
+
 //
 import '@emailjs/browser';
 
 
 
-const SafraLayout = ({children}) => {
+const SafraLayout = ({ children }) => {
   useEffect(() => {
     safraUtility.animation();
     safraUtility.fixedHeader();
@@ -17,6 +20,8 @@ const SafraLayout = ({children}) => {
   return (
     <Fragment>
       <div className="page-wrapper">
+        <Headertwo />
+
         <Header />
         {children}
         <Footer />

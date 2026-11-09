@@ -11,11 +11,9 @@ const page = () => {
 
       <SafraLayout>
         <PageBanner pageName={"Chemplex"} pageTitle={"Chemplex "} />
-        <section className="shop-area py-100 rpy-100 ">
+        <section className="shop-area pt-60 rpy-100 ">
           <div className="container">
             <div className="row">
-
-              <div className="">
                 <div className="tag-share pt-0 pb-0">
                   <h4>Chemplex Products</h4>
                 </div>
@@ -25,7 +23,8 @@ const page = () => {
                 <p className="pb-40 text-black">
                   ***************************************************************************
                 </p>
-              </div>
+                <hr />
+              
 
               <div className="col-xl-  ">
                 <div className="shop-page-wrap">
