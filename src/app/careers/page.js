@@ -105,7 +105,7 @@ const page = () => {
 
 
                                         <h6 className="pt-20">Project Initiation</h6>
-                                        <ul className="icon-list mt-20 mb-35">
+                                        <ul className="icon-list-career mt-20 mb-35">
                                             <li>
                                                 <i className="fal fa-check" /> Audit to find where we truly are. If we do not, life is full of surprises!.
                                             </li>

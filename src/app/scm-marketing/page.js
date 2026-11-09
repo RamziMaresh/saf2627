@@ -123,7 +123,7 @@ const page = () => {
                     Safra offers a full package of support to their Customers including the following:
                   </b>
                 </p>
-                <ul className=" style-two mt-20 mb-40">
+                <ul className="icon-list-career style-two mt-20 mb-40">
                   <li>
                     <i className="fal fa-check" />  Advisory Support for Product Selection.
                   </li>
